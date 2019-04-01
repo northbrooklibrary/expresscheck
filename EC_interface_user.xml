@@ -3,6 +3,10 @@
 
 	<application>
 		<backcolor color="#FFFFFF"></backcolor>
+		<messagebox>
+			<!-- An empty wave filename and path uses the setting for the Windows Critical Stop sound (hand) -->
+			<stop wave=""></stop>
+		</messagebox>
 	</application>
 
 	<!-- main menu buttons text and size customizations -->
@@ -17,22 +21,21 @@
 	</buttons>
 
 	<form>
-		<backcolor color="#F5F5F5"></backcolor>
+		<backcolor color="#FFFFFF"></backcolor>
 		<forecolor color="#333333"></forecolor>
 	</form>
 
 	<dialog>
-		<!-- B0C4DE Cornflower blue -->
-		<backcolor color="#F5F5F5"></backcolor>
+		<backcolor color="#FFFFFF"></backcolor>
 		<forecolor color="#333333"></forecolor>
-		<titlebar backcolor="#778899" forecolor="#333333" ></titlebar>
+		<titlebar backcolor="#00739E" forecolor="#FFFFFF" ></titlebar>
 	</dialog>
 
 	<headerpanel>
 		<backcolor colorstart="#FFFFFF" colorend="#FFFFFF"></backcolor>
 		<forecolor color="#FFFFFF"></forecolor>
 		<!-- An empty filename uses the built-in image (200x78, transparent) -->
-		<logo visible="true" filename=""></logo>
+		<logo visible="true" filename="\\ccs-ts1\ExpressCheckConfig\img\logo.png"></logo>
 		<helpbutton visible="false"></helpbutton>
 	</headerpanel>
 
@@ -47,7 +50,7 @@
 		<!-- An empty filename uses the built-in image (1003x616) -->
 		<backgroundimage visible="false" filename=""></backgroundimage>
 		<!-- An empty filename uses the built-in image (?x?) -->
-		<instructionimage visible="true" filename="" width="470" height="304" top="192" left="272"></instructionimage>
+		<instructionimage visible="true" filename="\\ccs-ts1\ExpressCheckConfig\img\welcome-instructionimage.png" width="414" height="218" top="192" left="272"></instructionimage>
 		<!-- textalign values, "center", "left" or "right" -->
     <manualaccountlink top="564" left="23" width="956" textalign="center" forecolor="#696969"></manualaccountlink>
   </welcomeform>
@@ -75,7 +78,7 @@
 		<instructiontitlebar backcolor="#FFFFFF" forecolor="#333333"></instructiontitlebar>
 		<instruction color="#00739E"></instruction>
 		<!-- An empty filename uses the built-in image (392x147) -->
-		<instructionimage visible="true" filename=""></instructionimage>
+		<instructionimage visible="true" filename="\\ccs-ts1\ExpressCheckConfig\img\checkout-instructionimage.png"></instructionimage>
 <reminder headerforecolor ="#333333" headerbackcolor ="#6487DB" reminderforecolor="#333333" reminderbackcolor="#FAFAD2">
 
 </reminder>
@@ -83,7 +86,7 @@
 
 	<status successforecolor="" failureforecolor ="" ></status>
 	<alternatingrow forecolor="" backcolor=""></alternatingrow>
-	<background color=""></background>
+	<background color="#FFFFFF"></background>
 </gridview>
 	</checkoutform>
 
