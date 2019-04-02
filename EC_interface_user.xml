@@ -2,11 +2,7 @@
 <expresscheckinterface>
 
 	<application>
-		<backcolor color="#FFFFFF"></backcolor>
-		<messagebox>
-			<!-- An empty wave filename and path uses the setting for the Windows Critical Stop sound (hand) -->
-			<stop wave=""></stop>
-		</messagebox>
+		<backcolor color="#F5F5F5"></backcolor>
 	</application>
 
 	<!-- main menu buttons text and size customizations -->
@@ -21,7 +17,7 @@
 	</buttons>
 
 	<form>
-		<backcolor color="#FFFFFF"></backcolor>
+		<backcolor color="#F5F5F5"></backcolor>
 		<forecolor color="#333333"></forecolor>
 	</form>
 
@@ -89,31 +85,5 @@
 	<background color="#FFFFFF"></background>
 </gridview>
 	</checkoutform>
-
-	<patronaccountform>
-		<forecolor color="#333333"></forecolor>
-		<instruction color="#000080"></instruction>
-		<!-- An empty filename uses the built-in image (392x147) -->
-		<instructionimage filename=""></instructionimage>
-		<initialtab index="0"></initialtab>
-
-		<tab forecolor="#333333" backcolor="#B0C4DE" selectedcolor="#00008B" selectedunderline="true" selectedbold="true">
-			<page backcolor="#B0C4DE">
-				<header forecolor="#333333" backcolor="#D3D3D3"></header>
-				<listitem backcolor="#FAFAD2" titlecolor="#00008B" labelcolor="#333333" datacolor="#800000"></listitem>
-				<button forecolor="#333333" backcolor="#B0C4DE"></button>
-			</page>
-		</tab>
-
-	</patronaccountform>
-
-	<rfidinstructionform>
-		<forecolor color="#333333"></forecolor>
-		<instruction color="#000080"></instruction>
-		<panel1backcolor color="#6487db"></panel1backcolor>
-		<panel2backcolor color="#6487db"></panel2backcolor>
-		<!-- An empty filename uses the built-in image (392x147) -->
-		<instructionimage visible="true" filename=""></instructionimage>
-	</rfidinstructionform>
 
 </expresscheckinterface>
