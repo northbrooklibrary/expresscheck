@@ -71,7 +71,7 @@
 
 	<checkoutform>
 		<forecolor color="#333333"></forecolor>
-		<instructiontitlebar backcolor="#FFFFFF" forecolor="#333333"></instructiontitlebar>
+		<instructiontitlebar backcolor="#F5F5F5" forecolor="#333333"></instructiontitlebar>
 		<instruction color="#00739E"></instruction>
 		<!-- An empty filename uses the built-in image (392x147) -->
 		<instructionimage visible="true" filename="\\ccs-ts1\ExpressCheckConfig\img\checkout-instructionimage.png"></instructionimage>
