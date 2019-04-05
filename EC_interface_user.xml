@@ -41,7 +41,7 @@
 	</statuspanel>
 
 	<welcomeform>
-		<greeting color="#FFFFFF"></greeting>
+		<greeting color="#F5F5F5"></greeting>
 		<instruction color="#00739E"></instruction>
 		<!-- An empty filename uses the built-in image (1003x616) -->
 		<backgroundimage visible="false" filename=""></backgroundimage>
