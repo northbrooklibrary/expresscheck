@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8" ?>
 <expresscheckinterface>
 
 	<application>
@@ -19,19 +19,19 @@
 		<calculate color="#6487db" size="12"></calculate>
 		<exit color="#6487db" size="12"></exit>
 	</buttons>
-	
+
 	<form>
 		<backcolor color="#F5F5F5"></backcolor>
-		<forecolor color="#000000"></forecolor> 
+		<forecolor color="#000000"></forecolor>
 	</form>
-	
+
 	<dialog>
 		<!-- B0C4DE Cornflower blue -->
 		<backcolor color="#F5F5F5"></backcolor>
 		<forecolor color="#000000"></forecolor>
 		<titlebar backcolor="#778899" forecolor="#000000" ></titlebar>
 	</dialog>
-	
+
 	<headerpanel>
 		<backcolor colorstart="#000084" colorend="#6487db"></backcolor>
 		<forecolor color="#FFFFFF"></forecolor>
@@ -39,17 +39,17 @@
 		<logo visible="true" filename=""></logo>
 		<helpbutton visible="true"></helpbutton>
 	</headerpanel>
-	
+
 	<statuspanel>
 		<backcolor colorstart="#6487db" colorend="#000084"></backcolor>
 		<forecolor color="#FFFFFF"></forecolor>
 	</statuspanel>
-	
+
 	<welcomeform>
 		<greeting color="#000080"></greeting>
 		<instruction color="#696969"></instruction>
 		<!-- An empty filename uses the built-in image (1003x616) -->
-		<backgroundimage visible="false" filename=""></backgroundimage> 
+		<backgroundimage visible="false" filename=""></backgroundimage>
 		<!-- An empty filename uses the built-in image (?x?) -->
 		<instructionimage visible="true" filename="" width="470" height="304" top="192" left="272"></instructionimage>
 		<!-- textalign values, "center", "left" or "right" -->
@@ -67,23 +67,23 @@
 
   <helpform>
 		<!-- Default help video (720x480) -->
-		<video filename="ECHelp.wmv" width="720" height="480" top="16" left="144"></video> 
+		<video filename="ECHelp.wmv" width="720" height="480" top="16" left="144"></video>
 	</helpform>
-	
+
 	<languageform>
 		<instruction color="#000080"></instruction>
 	</languageform>
-	
+
 	<checkoutform>
 		<forecolor color="#000000"></forecolor>
 		<instructiontitlebar backcolor="#6487DB" forecolor="#000000"></instructiontitlebar>
 		<instruction color="#000080"></instruction>
 		<!-- An empty filename uses the built-in image (392x147) -->
-		<instructionimage visible="true" filename=""></instructionimage> 
+		<instructionimage visible="true" filename=""></instructionimage>
 		<rfidsecurityimage filename=""></rfidsecurityimage>
 		<promptforreceipt filename=""></promptforreceipt>
 		<mediadispenserimage filename=""></mediadispenserimage>
-<reminder headerforecolor ="#000000" headerbackcolor ="#6487DB" reminderforecolor="#000000" reminderbackcolor="#FAFAD2"> 
+<reminder headerforecolor ="#000000" headerbackcolor ="#6487DB" reminderforecolor="#000000" reminderbackcolor="#FAFAD2">
 
 </reminder>
 <gridview>
@@ -93,14 +93,14 @@
 	<background color=""></background>
 </gridview>
 	</checkoutform>
-	
+
 	<patronaccountform>
 		<forecolor color="#000000"></forecolor>
 		<instruction color="#000080"></instruction>
 		<!-- An empty filename uses the built-in image (392x147) -->
 		<instructionimage filename=""></instructionimage>
 		<initialtab index="0"></initialtab>
-		
+
 		<tab forecolor="#000000" backcolor="#B0C4DE" selectedcolor="#00008B" selectedunderline="true" selectedbold="true">
 			<page backcolor="#B0C4DE">
 				<header forecolor="#000000" backcolor="#D3D3D3"></header>
@@ -108,16 +108,16 @@
 				<button forecolor="#000000" backcolor="#B0C4DE"></button>
 			</page>
 		</tab>
-		
+
 	</patronaccountform>
-	
+
 	<rfidinstructionform>
 		<forecolor color="#000000"></forecolor>
 		<instruction color="#000080"></instruction>
 		<panel1backcolor color="#6487db"></panel1backcolor>
 		<panel2backcolor color="#6487db"></panel2backcolor>
 		<!-- An empty filename uses the built-in image (392x147) -->
-		<instructionimage visible="true" filename=""></instructionimage> 
+		<instructionimage visible="true" filename=""></instructionimage>
 	</rfidinstructionform>
 
 </expresscheckinterface>
