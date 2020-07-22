@@ -46,7 +46,7 @@
 		<!-- An empty filename uses the built-in image (1003x616) -->
 		<backgroundimage visible="false" filename=""></backgroundimage>
 		<!-- An empty filename uses the built-in image (?x?) -->
-		<instructionimage visible="true" filename="\\ccs-ts1\ExpressCheckConfig\img\welcome-instructionimage.png" width="414" height="218" top="192" left="272"></instructionimage>
+		<instructionimage visible="true" filename="\\ccs-ts1\ExpressCheckConfig\img\welcome-instructionimage.png" width="387" height="218" top="192" left="288"></instructionimage>
 		<!-- textalign values, "center", "left" or "right" -->
     <manualaccountlink top="564" left="23" width="956" textalign="center" forecolor="#303F4D"></manualaccountlink>
   </welcomeform>
